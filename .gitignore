@@ -1,0 +1,6 @@
+__pycache__/
+.venv/
+tmp/
+report.html
+report.json
+submission_test.pdf

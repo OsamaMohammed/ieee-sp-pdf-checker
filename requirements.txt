@@ -1,0 +1,2 @@
+# Tested with PyMuPDF 1.23.25 on Python 3.8.10. No other runtime dependencies.
+PyMuPDF>=1.23.25,<2

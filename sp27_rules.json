@@ -1,0 +1,1828 @@
+{
+  "version": "sp27-2026-10-10",
+  "baseline": {
+    "body_size": 10.0,
+    "leading": 11.2,
+    "side_margin": 54.0,
+    "vertical_margin": 72.0,
+    "column_gap": 18.0,
+    "column_width": 243.0,
+    "size_tolerance": 0.25,
+    "leading_tolerance": 0.6,
+    "margin_tolerance": 5.0,
+    "source": "https://ctan.org/pkg/ieeetran",
+    "provenance": "IEEEtran.cls 1.8b: lines 492-496 (Times); 828-829 (10bp/11.2bp); 1786-1798 (54pt side margins, 72pt nominal vertical margins, 18pt column gap). Top/bottom margins are quantized to complete lines."
+  },
+  "deadlines": {
+    "1": {
+      "registration": "2026-06-04T23:59:59-12:00",
+      "paper": "2026-06-11T23:59:59-12:00"
+    },
+    "2": {
+      "registration": "2026-11-10T23:59:59-12:00",
+      "paper": "2026-11-17T23:59:59-12:00"
+    }
+  },
+  "rules": [
+    {
+      "id": "page.size",
+      "title": "US Letter size",
+      "question": "",
+      "section": "Page Limit and Formatting",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. ",
+      "mode": "automatic",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Page Limit and Formatting",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "pdf.boxes",
+      "title": "Rotation and cropping",
+      "question": "",
+      "section": "Conference Submission Server",
+      "conditional": false,
+      "kind": "guidance",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. ",
+      "mode": "automatic",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Conference Submission Server",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "pdf.readability",
+      "title": "Extractable PDF text",
+      "question": "",
+      "section": "Conference Submission Server",
+      "conditional": false,
+      "kind": "guidance",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. ",
+      "mode": "automatic",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Conference Submission Server",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "pdf.fonts",
+      "title": "Font portability",
+      "question": "",
+      "section": "Conference Submission Server",
+      "conditional": false,
+      "kind": "guidance",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. ",
+      "mode": "automatic",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Conference Submission Server",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "length.total",
+      "title": "Total page count",
+      "question": "",
+      "section": "Page Limit and Formatting",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. ",
+      "mode": "automatic",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Page Limit and Formatting",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "length.body",
+      "title": "Body and appendix boundaries",
+      "question": "",
+      "section": "Page Limit and Formatting",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. ",
+      "mode": "automatic",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Page Limit and Formatting",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "format.body",
+      "title": "Body font sample",
+      "question": "",
+      "section": "Page Limit and Formatting",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. ",
+      "mode": "automatic",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Page Limit and Formatting",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "format.spacing",
+      "title": "Line spacing sample",
+      "question": "",
+      "section": "Page Limit and Formatting",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. ",
+      "mode": "automatic",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Page Limit and Formatting",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "format.margins",
+      "title": "Content bounds",
+      "question": "",
+      "section": "Page Limit and Formatting",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. ",
+      "mode": "automatic",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Page Limit and Formatting",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "format.columns",
+      "title": "Column layout",
+      "question": "",
+      "section": "Page Limit and Formatting",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. ",
+      "mode": "automatic",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Page Limit and Formatting",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "format.template",
+      "title": "Exact template verification",
+      "question": "",
+      "section": "Page Limit and Formatting",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. ",
+      "mode": "automatic",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Page Limit and Formatting",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "anonymity.cve",
+      "title": "Full CVE identifiers",
+      "question": "",
+      "section": "Ethical Considerations for Vulnerability Disclosure",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. ",
+      "mode": "automatic",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Ethical Considerations for Vulnerability Disclosure",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "anonymity.signals",
+      "title": "Identity signals",
+      "question": "",
+      "section": "Anonymous Submission",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. ",
+      "mode": "automatic",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Anonymous Submission",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "sok.title",
+      "title": "SoK title prefix",
+      "question": "",
+      "section": "Systematization of Knowledge Papers",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. ",
+      "mode": "automatic",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Systematization of Knowledge Papers",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "tex.class",
+      "title": "LaTeX class/options",
+      "question": "",
+      "section": "Page Limit and Formatting",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. ",
+      "mode": "automatic",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Page Limit and Formatting",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "tex.version",
+      "title": "LaTeX class version",
+      "question": "",
+      "section": "Page Limit and Formatting",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. ",
+      "mode": "automatic",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Page Limit and Formatting",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "tex.overrides",
+      "title": "LaTeX overrides",
+      "question": "",
+      "section": "Page Limit and Formatting",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. ",
+      "mode": "automatic",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Page Limit and Formatting",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "tex.includes",
+      "title": "Uninspected LaTeX files",
+      "question": "",
+      "section": "Page Limit and Formatting",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. ",
+      "mode": "automatic",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Page Limit and Formatting",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "scope.security",
+      "title": "Security/privacy relevance",
+      "question": "Does the paper make a clear contribution to security or privacy?",
+      "section": "Call for Papers",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Does the paper make a clear contribution to security or privacy?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Does the paper make a clear contribution to security or privacy?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Call for Papers",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "scope.theory",
+      "title": "Theory relevance",
+      "question": "For theoretical work, does the paper explain a convincing connection to practice?",
+      "section": "Call for Papers",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "For theoretical work, does the paper explain a convincing connection to practice?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. For theoretical work, does the paper explain a convincing connection to practice?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Call for Papers",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "sok.contribution",
+      "title": "SoK contribution",
+      "question": "Does the SoK offer substantive synthesis, evidence, a new viewpoint or taxonomy beyond a simple survey?",
+      "section": "Systematization of Knowledge Papers",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "sok",
+      "details": "Does the SoK offer substantive synthesis, evidence, a new viewpoint or taxonomy beyond a simple survey?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Does the SoK offer substantive synthesis, evidence, a new viewpoint or taxonomy beyond a simple survey?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Systematization of Knowledge Papers",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "sok.form",
+      "title": "SoK submission checkbox",
+      "question": "Is the SoK checkbox selected on HotCRP?",
+      "section": "Systematization of Knowledge Papers",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "sok",
+      "details": "Is the SoK checkbox selected on HotCRP?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Is the SoK checkbox selected on HotCRP?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Systematization of Knowledge Papers",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "originality.unpublished",
+      "title": "Original work",
+      "question": "Is the submission original, previously unpublished research?",
+      "section": "Instructions for Paper Submission",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Is the submission original, previously unpublished research?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Is the submission original, previously unpublished research?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Instructions for Paper Submission",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "originality.overlap",
+      "title": "Overlap disclosure",
+      "question": "Have relevant overlaps with all authors' prior publications and concurrent submissions been cited and explained?",
+      "section": "Instructions for Paper Submission",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Have relevant overlaps with all authors' prior publications and concurrent submissions been cited and explained?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Have relevant overlaps with all authors' prior publications and concurrent submissions been cited and explained?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Instructions for Paper Submission",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "originality.concurrent",
+      "title": "No simultaneous submission",
+      "question": "Was this paper free of simultaneous consideration by a journal or proceedings venue at registration, and does it remain so?",
+      "section": "Submission Deadlines & Decisions",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Was this paper free of simultaneous consideration by a journal or proceedings venue at registration, and does it remain so?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Was this paper free of simultaneous consideration by a journal or proceedings venue at registration, and does it remain so?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Submission Deadlines & Decisions",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "originality.resubmit",
+      "title": "Resubmission eligibility",
+      "question": "If previously submitted to S&P, is the one-year waiting period satisfied or is the unreviewed formatting/anonymity desk-rejection exception applicable?",
+      "section": "Resubmission of Rejected Papers",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Count from original submission. Similar contribution and similar authors can constitute a resubmission even after a rewrite. Only qualifying desk rejections without reviews permit the next cycle; anonymity rejection after completed reviews does not.",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Count from original submission. Similar contribution and similar authors can constitute a resubmission even after a rewrite. Only qualifying desk rejections without reviews permit the next cycle; anonymity rejection after completed reviews does not.",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Resubmission of Rejected Papers",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "registration.complete",
+      "title": "Complete registration",
+      "question": "Were the full abstract, complete authors/ORCIDs, and conflicts recorded by abstract registration closing?",
+      "section": "Important Dates",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Were the full abstract, complete authors/ORCIDs, and conflicts recorded by abstract registration closing?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Were the full abstract, complete authors/ORCIDs, and conflicts recorded by abstract registration closing?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Important Dates",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "registration.frozen",
+      "title": "Frozen registration fields",
+      "question": "Have title, abstract, author membership and order remained unchanged since registration closing?",
+      "section": "Important Dates",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Have title, abstract, author membership and order remained unchanged since registration closing?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Have title, abstract, author membership and order remained unchanged since registration closing?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Important Dates",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "registration.cap",
+      "title": "Six-paper cap",
+      "question": "Did every author register no more than six papers in this cycle?",
+      "section": "Cap on number of submissions",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Did every author register no more than six papers in this cycle?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Did every author register no more than six papers in this cycle?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Cap on number of submissions",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "anonymity.title",
+      "title": "Anonymous title page",
+      "question": "Does the title page omit real and template-placeholder author names and affiliations?",
+      "section": "Anonymous Submission",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Does the title page omit real and template-placeholder author names and affiliations?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Does the title page omit real and template-placeholder author names and affiliations?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Anonymous Submission",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "anonymity.body",
+      "title": "Anonymous body",
+      "question": "Have you checked all text, figures, links and supplementary material for direct or indirect author identification?",
+      "section": "Anonymous Submission",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Have you checked all text, figures, links and supplementary material for direct or indirect author identification?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Have you checked all text, figures, links and supplementary material for direct or indirect author identification?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Anonymous Submission",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "anonymity.ack",
+      "title": "Anonymous acknowledgments",
+      "question": "Are any acknowledgments free of identifying funding details and named colleagues?",
+      "section": "Anonymous Submission",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Are any acknowledgments free of identifying funding details and named colleagues?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Are any acknowledgments free of identifying funding details and named colleagues?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Anonymous Submission",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "anonymity.selfcite",
+      "title": "Third-person self-citation",
+      "question": "Are references to your previous work in third person, or appropriately blinded when that is infeasible?",
+      "section": "Anonymous Submission",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Are references to your previous work in third person, or appropriately blinded when that is infeasible?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Are references to your previous work in third person, or appropriately blinded when that is infeasible?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Anonymous Submission",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "anonymity.artifacts",
+      "title": "Anonymous artifacts",
+      "question": "Are artifact contents, comments, account names and repository names free of author or institution identifiers?",
+      "section": "Anonymous Submission",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Are artifact contents, comments, account names and repository names free of author or institution identifiers?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Are artifact contents, comments, account names and repository names free of author or institution identifiers?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Anonymous Submission",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "anonymity.publicity",
+      "title": "Publicity restrictions",
+      "question": "Have you refrained from widely advertising results while under review, unless the chairs granted an exception?",
+      "section": "Anonymous Submission",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Talks, preprints such as arXiv, and vendor vulnerability disclosure are allowed. Do not interpret preprint availability itself as an anonymity violation.",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Talks, preprints such as arXiv, and vendor vulnerability disclosure are allowed. Do not interpret preprint availability itself as an anonymity violation.",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Anonymous Submission",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "anonymity.contact",
+      "title": "No direct PC contact",
+      "question": "Have you avoided directly contacting PC members to discuss this submission?",
+      "section": "Anonymous Submission",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Have you avoided directly contacting PC members to discuss this submission?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Have you avoided directly contacting PC members to discuss this submission?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Anonymous Submission",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "artifacts.available",
+      "title": "Artifact availability",
+      "question": "Have you provided an anonymized artifact repository where useful?",
+      "section": "Artifacts",
+      "conditional": true,
+      "kind": "recommendation",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Have you provided an anonymized artifact repository where useful?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Have you provided an anonymized artifact repository where useful?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Artifacts",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "artifacts.proofs",
+      "title": "Proof artifacts",
+      "question": "For theoretical work, have you provided proofs in an anonymized repository?",
+      "section": "Artifacts",
+      "conditional": true,
+      "kind": "recommendation",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "For theoretical work, have you provided proofs in an anonymized repository?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. For theoretical work, have you provided proofs in an anonymized repository?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Artifacts",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "artifacts.frozen",
+      "title": "Artifact freeze",
+      "question": "If artifacts are provided, will they remain unchanged after the paper deadline (or have they remained unchanged if it has passed)?",
+      "section": "Artifacts",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "If artifacts are provided, will they remain unchanged after the paper deadline (or have they remained unchanged if it has passed)?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. If artifacts are provided, will they remain unchanged after the paper deadline (or have they remained unchanged if it has passed)?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Artifacts",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "coi.review",
+      "title": "Complete PC conflict review",
+      "question": "Have all authors reviewed the entire PC list, including both chair roles, and declared all and only genuine conflicts?",
+      "section": "Conflicts of Interest (COI)",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Have all authors reviewed the entire PC list, including both chair roles, and declared all and only genuine conflicts?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Have all authors reviewed the entire PC list, including both chair roles, and declared all and only genuine conflicts?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Conflicts of Interest (COI)",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "coi.coauthor",
+      "title": "Co-author conflicts",
+      "question": "Have PC members who coauthor this paper been declared as conflicts?",
+      "section": "Conflicts of Interest (COI)",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Have PC members who coauthor this paper been declared as conflicts?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Have PC members who coauthor this paper been declared as conflicts?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Conflicts of Interest (COI)",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "coi.employment",
+      "title": "Employment conflicts",
+      "question": "Have same-company/organization co-workers within two years been identified, applying the intern exception correctly?",
+      "section": "Conflicts of Interest (COI)",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Student interns conflict with supervisors and their research group. If no longer employed there, an internship does not conflict them with the entire larger organization.",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Student interns conflict with supervisors and their research group. If no longer employed there, an internship does not conflict them with the entire larger organization.",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Conflicts of Interest (COI)",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "coi.institution",
+      "title": "Institution conflicts",
+      "question": "Have shared academic institution affiliations within two years been identified, including a PhD graduate's university for two years after graduation?",
+      "section": "Conflicts of Interest (COI)",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Have shared academic institution affiliations within two years been identified, including a PhD graduate's university for two years after graduation?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Have shared academic institution affiliations within two years been identified, including a PhD graduate's university for two years after graduation?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Conflicts of Interest (COI)",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "coi.research",
+      "title": "Research collaboration",
+      "question": "Have collaborations on published, unpublished, ongoing research and technical reports within two years been declared?",
+      "section": "Conflicts of Interest (COI)",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Have collaborations on published, unpublished, ongoing research and technical reports within two years been declared?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Have collaborations on published, unpublished, ongoing research and technical reports within two years been declared?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Conflicts of Interest (COI)",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "coi.funding",
+      "title": "Funding collaboration",
+      "question": "Have funding collaborators within two years been declared regardless of whether the grant was submitted, funded or completed?",
+      "section": "Conflicts of Interest (COI)",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Have funding collaborators within two years been declared regardless of whether the grant was submitted, funded or completed?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Have funding collaborators within two years been declared regardless of whether the grant was submitted, funded or completed?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Conflicts of Interest (COI)",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "coi.advisor",
+      "title": "Advisor/advisee conflicts",
+      "question": "Have primary thesis advisor and advisee relationships been declared regardless of how long ago?",
+      "section": "Conflicts of Interest (COI)",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Have primary thesis advisor and advisee relationships been declared regardless of how long ago?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Have primary thesis advisor and advisee relationships been declared regardless of how long ago?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Conflicts of Interest (COI)",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "coi.personal",
+      "title": "Personal conflicts",
+      "question": "Have relatives and close personal friends on the PC been declared?",
+      "section": "Conflicts of Interest (COI)",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Have relatives and close personal friends on the PC been declared?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Have relatives and close personal friends on the PC been declared?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Conflicts of Interest (COI)",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "coi.other",
+      "title": "Other conflicts",
+      "question": "Have any other proposed conflicts been explained in HotCRP for chair review?",
+      "section": "Conflicts of Interest (COI)",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Have any other proposed conflicts been explained in HotCRP for chair review?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Have any other proposed conflicts been explained in HotCRP for chair review?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Conflicts of Interest (COI)",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "coi.new",
+      "title": "New collaborations",
+      "question": "Have new collaborators during review been informed of the S&P submission?",
+      "section": "Conflicts of Interest (COI)",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Have new collaborators during review been informed of the S&P submission?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Have new collaborators during review been informed of the S&P submission?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Conflicts of Interest (COI)",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "ethics.field",
+      "title": "HotCRP ethics field",
+      "question": "Has the Ethics Considerations field been completed on HotCRP?",
+      "section": "Research Ethics Considerations",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Has the Ethics Considerations field been completed on HotCRP?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Has the Ethics Considerations field been completed on HotCRP?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Research Ethics Considerations",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "ethics.none",
+      "title": "Justified no-ethics claim",
+      "question": "If reporting no ethics considerations, is None accompanied by a reasoned explanation?",
+      "section": "Research Ethics Considerations",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "If reporting no ethics considerations, is None accompanied by a reasoned explanation?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. If reporting no ethics considerations, is None accompanied by a reasoned explanation?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Research Ethics Considerations",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "ethics.disclosure_plan",
+      "title": "Vulnerability disclosure plan",
+      "question": "If vulnerabilities were found, does the review PDF explain disclosure steps already taken or detailed plans and reasons for delay?",
+      "section": "Ethical Considerations for Vulnerability Disclosure",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "If vulnerabilities were found, does the review PDF explain disclosure steps already taken or detailed plans and reasons for delay?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. If vulnerabilities were found, does the review PDF explain disclosure steps already taken or detailed plans and reasons for delay?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Ethical Considerations for Vulnerability Disclosure",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "ethics.disclosure_now",
+      "title": "Early disclosure",
+      "question": "Have affected vendors and stakeholders been notified before submission where possible?",
+      "section": "Ethical Considerations for Vulnerability Disclosure",
+      "conditional": true,
+      "kind": "recommendation",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Have affected vendors and stakeholders been notified before submission where possible?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Have affected vendors and stakeholders been notified before submission where possible?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Ethical Considerations for Vulnerability Disclosure",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "ethics.humans",
+      "title": "Human-subject review",
+      "question": "For human-derived data or human-risk studies, have applicable institutional ethics approvals/waivers been disclosed?",
+      "section": "Ethical Considerations for Human Subjects Research",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "For human-derived data or human-risk studies, have applicable institutional ethics approvals/waivers been disclosed?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. For human-derived data or human-risk studies, have applicable institutional ethics approvals/waivers been disclosed?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Ethical Considerations for Human Subjects Research",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "ethics.participants",
+      "title": "Participant protections",
+      "question": "Are ethical treatment, recruitment, avoidance of coercion, compensation where applicable, consent, risks/benefits and confidentiality adequately discussed?",
+      "section": "Ethical Considerations for Human Subjects Research",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Are ethical treatment, recruitment, avoidance of coercion, compensation where applicable, consent, risks/benefits and confidentiality adequately discussed?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Are ethical treatment, recruitment, avoidance of coercion, compensation where applicable, consent, risks/benefits and confidentiality adequately discussed?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Ethical Considerations for Human Subjects Research",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "ethics.pii",
+      "title": "Sensitive data mitigations",
+      "question": "For PII or sensitive data, does the HotCRP ethics field detail mitigations for affected people?",
+      "section": "Ethical Considerations for Human Subjects Research",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "For PII or sensitive data, does the HotCRP ethics field detail mitigations for affected people?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. For PII or sensitive data, does the HotCRP ethics field detail mitigations for affected people?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Ethical Considerations for Human Subjects Research",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "ethics.live_permission",
+      "title": "Permission for live systems",
+      "question": "For interaction with others' live systems, have you explained permission or why it was unnecessary or infeasible?",
+      "section": "Ethical Considerations for Working With Live Systems",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "For interaction with others' live systems, have you explained permission or why it was unnecessary or infeasible?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. For interaction with others' live systems, have you explained permission or why it was unnecessary or infeasible?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Ethical Considerations for Working With Live Systems",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "ethics.live_harm",
+      "title": "Live-system harm",
+      "question": "Have you discussed harm/disruption mitigation and weighed study benefits against risks for those systems?",
+      "section": "Ethical Considerations for Working With Live Systems",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Have you discussed harm/disruption mitigation and weighed study benefits against risks for those systems?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Have you discussed harm/disruption mitigation and weighed study benefits against risks for those systems?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Ethical Considerations for Working With Live Systems",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "ethics.tools_misuse",
+      "title": "Tool misuse",
+      "question": "For new tools/technologies, have you explained potential misuse, harms and their likelihood?",
+      "section": "Ethics Considerations for Developing New Tools or Technologies",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "For new tools/technologies, have you explained potential misuse, harms and their likelihood?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. For new tools/technologies, have you explained potential misuse, harms and their likelihood?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Ethics Considerations for Developing New Tools or Technologies",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "ethics.tools_mitigation",
+      "title": "Tool risk mitigation",
+      "question": "Have you discussed how authors/users can limit tool risks and weighed benefits against harms?",
+      "section": "Ethics Considerations for Developing New Tools or Technologies",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Have you discussed how authors/users can limit tool risks and weighed benefits against harms?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Have you discussed how authors/users can limit tool risks and weighed benefits against harms?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Ethics Considerations for Developing New Tools or Technologies",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "ethics.attack_harm",
+      "title": "Attack publication risks",
+      "question": "For novel attacks, have publication harms and benefits been discussed?",
+      "section": "Ethics Considerations for Developing Novel Attacks",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "For novel attacks, have publication harms and benefits been discussed?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. For novel attacks, have publication harms and benefits been discussed?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Ethics Considerations for Developing Novel Attacks",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "ethics.attack_mitigation",
+      "title": "Attack mitigation",
+      "question": "Have short/long-term attack mitigations, prevention, and notification/disclosure steps been discussed?",
+      "section": "Ethics Considerations for Developing Novel Attacks",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Have short/long-term attack mitigations, prevention, and notification/disclosure steps been discussed?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Have short/long-term attack mitigations, prevention, and notification/disclosure steps been discussed?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Ethics Considerations for Developing Novel Attacks",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "interests.declared",
+      "title": "Competing interests",
+      "question": "Have relevant financial and non-financial competing interests been declared?",
+      "section": "Financial and Non-financial Competing Interests",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Have relevant financial and non-financial competing interests been declared?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Have relevant financial and non-financial competing interests been declared?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Financial and Non-financial Competing Interests",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "format.confirm",
+      "title": "Visual template confirmation",
+      "question": "Have you compared the paper visually with the compsoc conference template and confirmed unchanged fonts, margins and spacing?",
+      "section": "Page Limit and Formatting",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Have you compared the paper visually with the compsoc conference template and confirmed unchanged fonts, margins and spacing?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Have you compared the paper visually with the compsoc conference template and confirmed unchanged fonts, margins and spacing?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Page Limit and Formatting",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "length.confirm",
+      "title": "Page-limit confirmation",
+      "question": "Have you confirmed body, reference, appendix and total counts meet the applicable research/SoK limits?",
+      "section": "Page Limit and Formatting",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Have you confirmed body, reference, appendix and total counts meet the applicable research/SoK limits?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Have you confirmed body, reference, appendix and total counts meet the applicable research/SoK limits?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Page Limit and Formatting",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "length.exception",
+      "title": "Chair-approved exception",
+      "question": "If relying on extra pages, do you have explicit PC-chair approval?",
+      "section": "Page Limit and Formatting",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Record approval details in the note. A self-reported exception does not erase measured overlength findings.",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Record approval details in the note. A self-reported exception does not erase measured overlength findings.",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Page Limit and Formatting",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "authorship.human",
+      "title": "Human authors",
+      "question": "Are all listed authors human?",
+      "section": "Authorship Policy",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Are all listed authors human?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Are all listed authors human?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Authorship Policy",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "authorship.orcid",
+      "title": "All authors have ORCIDs",
+      "question": "Were ORCID numbers supplied for every author at abstract registration?",
+      "section": "Authorship Policy",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Were ORCID numbers supplied for every author at abstract registration?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Were ORCID numbers supplied for every author at abstract registration?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Authorship Policy",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "authorship.match",
+      "title": "ORCID identity matching",
+      "question": "Do complete names and email addresses match between each ORCID account and HotCRP?",
+      "section": "Authorship Policy",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Do complete names and email addresses match between each ORCID account and HotCRP?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Do complete names and email addresses match between each ORCID account and HotCRP?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Authorship Policy",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "authorship.affiliation",
+      "title": "Anticipated affiliation changes",
+      "question": "If affiliations may change during review, have you considered both current and future institutions for COI?",
+      "section": "Authorship Policy",
+      "conditional": true,
+      "kind": "recommendation",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "If affiliations may change during review, have you considered both current and future institutions for COI?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. If affiliations may change during review, have you considered both current and future institutions for COI?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Authorship Policy",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "submission.visual",
+      "title": "Rendering review",
+      "question": "Have you visually checked unusual fonts, images, figures, equations and all pages in a PDF viewer?",
+      "section": "Conference Submission Server",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Have you visually checked unusual fonts, images, figures, equations and all pages in a PDF viewer?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Have you visually checked unusual fonts, images, figures, equations and all pages in a PDF viewer?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Conference Submission Server",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "submission.registered",
+      "title": "Registration submitted",
+      "question": "Did you complete registration on the correct cycle server before its AoE deadline?",
+      "section": "Important Dates",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Did you complete registration on the correct cycle server before its AoE deadline?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Did you complete registration on the correct cycle server before its AoE deadline?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Important Dates",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "submission.draft",
+      "title": "Draft submitted early",
+      "question": "Was a draft submitted at least 24 hours before the paper deadline?",
+      "section": "Conference Submission Server",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Was a draft submitted at least 24 hours before the paper deadline?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Was a draft submitted at least 24 hours before the paper deadline?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Conference Submission Server",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "submission.final",
+      "title": "Final PDF submitted",
+      "question": "Was the final PDF submitted to the correct server before the paper deadline?",
+      "section": "Conference Submission Server",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Was the final PDF submitted to the correct server before the paper deadline?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Was the final PDF submitted to the correct server before the paper deadline?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Conference Submission Server",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "submission.deadlines",
+      "title": "Cycle deadlines",
+      "question": "",
+      "section": "Important Dates",
+      "conditional": false,
+      "kind": "guidance",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. ",
+      "mode": "guidance",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Important Dates",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "ai.disclose",
+      "title": "AI disclosure and motivation",
+      "question": "If using or studying generative AI in research or writing, have you disclosed and motivated this use?",
+      "section": "Generative AI Policy",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "If using or studying generative AI in research or writing, have you disclosed and motivated this use?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. If using or studying generative AI in research or writing, have you disclosed and motivated this use?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Generative AI Policy",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "ai.hotcrp",
+      "title": "AI HotCRP field",
+      "question": "If using/studying generative AI, have you completed Generative AI usage considerations on HotCRP?",
+      "section": "Generative AI Policy",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "If using/studying generative AI, have you completed Generative AI usage considerations on HotCRP?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. If using/studying generative AI, have you completed Generative AI usage considerations on HotCRP?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Generative AI Policy",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "ai.editorial",
+      "title": "Editorial AI statement",
+      "question": "If AI improved the writing, have you stated its editorial use and author inspection for accuracy and originality?",
+      "section": "Generative AI Policy",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "If AI improved the writing, have you stated its editorial use and author inspection for accuracy and originality?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. If AI improved the writing, have you stated its editorial use and author inspection for accuracy and originality?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Generative AI Policy",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "ai.accuracy",
+      "title": "Accuracy, originality and credit",
+      "question": "Have authors checked all text/figures for accuracy and originality, thoroughly reviewed prior work, and cited it?",
+      "section": "Generative AI Policy",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Have authors checked all text/figures for accuracy and originality, thoroughly reviewed prior work, and cited it?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Have authors checked all text/figures for accuracy and originality, thoroughly reviewed prior work, and cited it?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Generative AI Policy",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "ai.method",
+      "title": "AI methodology",
+      "question": "If AI was integral to the methodology or an object of study, is its use explicitly detailed?",
+      "section": "Generative AI Policy",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "If AI was integral to the methodology or an object of study, is its use explicitly detailed?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. If AI was integral to the methodology or an object of study, is its use explicitly detailed?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Generative AI Policy",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "ai.validation",
+      "title": "Independent validation",
+      "question": "Have AI-generated ideas been independently developed and validated?",
+      "section": "Generative AI Policy",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Have AI-generated ideas been independently developed and validated?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Have AI-generated ideas been independently developed and validated?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Generative AI Policy",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "ai.limitations",
+      "title": "AI limitations",
+      "question": "Have AI-related limitations, including reproducibility issues, been explained?",
+      "section": "Generative AI Policy",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Have AI-related limitations, including reproducibility issues, been explained?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Have AI-related limitations, including reproducibility issues, been explained?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Generative AI Policy",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "ai.data_rights",
+      "title": "AI training data",
+      "question": "If collecting training data, have consent, data-holder rights and intellectual property been considered?",
+      "section": "Generative AI Policy",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "If collecting training data, have consent, data-holder rights and intellectual property been considered?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. If collecting training data, have consent, data-holder rights and intellectual property been considered?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Generative AI Policy",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "ai.environment",
+      "title": "Experiment footprint",
+      "question": "Have you justified why AI and the chosen model size, query volume and hardware were needed and how resource use was minimized?",
+      "section": "Generative AI Policy",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Have you justified why AI and the chosen model size, query volume and hardware were needed and how resource use was minimized?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Have you justified why AI and the chosen model size, query volume and hardware were needed and how resource use was minimized?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Generative AI Policy",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "ai.ieee",
+      "title": "IEEE generated-content acknowledgment",
+      "question": "If using AI-generated content, does an anonymous acknowledgment identify the AI system, affected sections and extent of use?",
+      "section": "Guidelines for Artificial Intelligence (AI)-Generated Text",
+      "conditional": true,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "IEEE distinguishes generated content from editing/grammar assistance. SP27 additionally requires its own editorial-use statement and HotCRP disclosure. Keep the acknowledgment anonymous; do not remove a neutral disclosure merely because it is an acknowledgment.",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. IEEE distinguishes generated content from editing/grammar assistance. SP27 additionally requires its own editorial-use statement and HotCRP disclosure. Keep the acknowledgment anonymous; do not remove a neutral disclosure merely because it is an acknowledgment.",
+      "mode": "manual",
+      "source": {
+        "url": "https://conferences.ieeeauthorcenter.ieee.org/author-ethics/guidelines-and-policies/submission-policies/",
+        "section": "Guidelines for Artificial Intelligence (AI)-Generated Text",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "later.withdrawal",
+      "title": "Withdrawal timing",
+      "question": "",
+      "section": "Withdrawing Policy",
+      "conditional": false,
+      "kind": "guidance",
+      "stage": "review",
+      "paper_type": "all",
+      "details": "A paper may be withdrawn before reviews are sent, but not after.",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. A paper may be withdrawn before reviews are sent, but not after.",
+      "mode": "guidance",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Withdrawing Policy",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "later.disclosure",
+      "title": "Disclosure by rebuttal",
+      "question": "",
+      "section": "Ethical Considerations for Vulnerability Disclosure",
+      "conditional": false,
+      "kind": "guidance",
+      "stage": "review",
+      "paper_type": "all",
+      "details": "Disclose vulnerabilities by the rebuttal deadline; if impossible notify chairs as soon as possible and obtain an exceptional extension.",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Disclose vulnerabilities by the rebuttal deadline; if impossible notify chairs as soon as possible and obtain an exceptional extension.",
+      "mode": "guidance",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Ethical Considerations for Vulnerability Disclosure",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "later.rebuttal_words",
+      "title": "Rebuttal word limit",
+      "question": "",
+      "section": "Rebuttal Format",
+      "conditional": false,
+      "kind": "guidance",
+      "stage": "review",
+      "paper_type": "all",
+      "details": "Follow the assigned rebuttal instructions and 750-word limit; focus on factual errors and concrete reviewer questions.",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Follow the assigned rebuttal instructions and 750-word limit; focus on factual errors and concrete reviewer questions.",
+      "mode": "guidance",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Rebuttal Format",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "later.rebuttal_material",
+      "title": "Rebuttal new material",
+      "question": "",
+      "section": "Rebuttal Format",
+      "conditional": false,
+      "kind": "guidance",
+      "stage": "review",
+      "paper_type": "all",
+      "details": "Non-interactive rebuttals may not add results/material. Interactive follow-up may supply only reviewer-requested material, in a HotCRP comment accompanied by a revised PDF.",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Non-interactive rebuttals may not add results/material. Interactive follow-up may supply only reviewer-requested material, in a HotCRP comment accompanied by a revised PDF.",
+      "mode": "guidance",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Rebuttal Format",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "later.no_conditional",
+      "title": "No conditional acceptance",
+      "question": "",
+      "section": "Submission Deadlines & Decisions",
+      "conditional": false,
+      "kind": "guidance",
+      "stage": "review",
+      "paper_type": "all",
+      "details": "The submitted version is evaluated as-is except requested rebuttal material. Do not defer necessary research to an assumed conditional acceptance.",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. The submitted version is evaluated as-is except requested rebuttal material. Do not defer necessary research to an assumed conditional acceptance.",
+      "mode": "guidance",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Submission Deadlines & Decisions",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "later.ethics",
+      "title": "Camera-ready ethics",
+      "question": "",
+      "section": "Research Ethics Considerations",
+      "conditional": false,
+      "kind": "guidance",
+      "stage": "camera_ready",
+      "paper_type": "all",
+      "details": "Add the Ethics Considerations manuscript section at camera-ready; the CFP excludes it from page limits.",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Add the Ethics Considerations manuscript section at camera-ready; the CFP excludes it from page limits.",
+      "mode": "guidance",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Research Ethics Considerations",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "later.financial",
+      "title": "Camera-ready interests",
+      "question": "",
+      "section": "Financial and Non-financial Competing Interests",
+      "conditional": false,
+      "kind": "guidance",
+      "stage": "camera_ready",
+      "paper_type": "all",
+      "details": "Include relevant financial-interest disclosures in the final manuscript, beyond routine funding lines.",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Include relevant financial-interest disclosures in the final manuscript, beyond routine funding lines.",
+      "mode": "guidance",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Financial and Non-financial Competing Interests",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "later.authorship",
+      "title": "Post-acceptance authorship",
+      "question": "",
+      "section": "Authorship Policy",
+      "conditional": false,
+      "kind": "guidance",
+      "stage": "camera_ready",
+      "paper_type": "all",
+      "details": "Membership changes remain prohibited; justified author-order/affiliation changes require chair approval after acceptance.",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Membership changes remain prohibited; justified author-order/affiliation changes require chair approval after acceptance.",
+      "mode": "guidance",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Authorship Policy",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "later.length",
+      "title": "Final length",
+      "question": "",
+      "section": "Page Limit and Formatting",
+      "conditional": false,
+      "kind": "guidance",
+      "stage": "camera_ready",
+      "paper_type": "all",
+      "details": "Meet the final 18-page limit unless chairs allow additional pages; confirm applicable exemptions with them.",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Meet the final 18-page limit unless chairs allow additional pages; confirm applicable exemptions with them.",
+      "mode": "guidance",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Page Limit and Formatting",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "later.feedback",
+      "title": "Final revisions",
+      "question": "",
+      "section": "Submission Deadlines & Decisions",
+      "conditional": false,
+      "kind": "guidance",
+      "stage": "camera_ready",
+      "paper_type": "all",
+      "details": "Incorporate reviewer feedback and meet the camera-ready schedule (normally within one month of acceptance).",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Incorporate reviewer feedback and meet the camera-ready schedule (normally within one month of acceptance).",
+      "mode": "guidance",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Submission Deadlines & Decisions",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "later.meta",
+      "title": "Meta-review and response",
+      "question": "",
+      "section": "Submission Deadlines & Decisions",
+      "conditional": false,
+      "kind": "guidance",
+      "stage": "camera_ready",
+      "paper_type": "all",
+      "details": "The final PDF includes the public meta-review. An optional author response is under 500 words; follow acceptance instructions.",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. The final PDF includes the public meta-review. An optional author response is under 500 words; follow acceptance instructions.",
+      "mode": "guidance",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Submission Deadlines & Decisions",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "later.clearance",
+      "title": "Publication clearance",
+      "question": "",
+      "section": "Publication and Presentation",
+      "conditional": false,
+      "kind": "guidance",
+      "stage": "camera_ready",
+      "paper_type": "all",
+      "details": "Obtain required publication clearances.",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Obtain required publication clearances.",
+      "mode": "guidance",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Publication and Presentation",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "later.presentation",
+      "title": "Registration and presentations",
+      "question": "",
+      "section": "Publication and Presentation",
+      "conditional": false,
+      "kind": "guidance",
+      "stage": "camera_ready",
+      "paper_type": "all",
+      "details": "An author must register and present both the short talk and poster.",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. An author must register and present both the short talk and poster.",
+      "mode": "guidance",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Publication and Presentation",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "policy.author",
+      "title": "Author responsibility",
+      "question": "Have all authors read the current CFP and checked for updates since this policy snapshot?",
+      "section": "Authors\u2019 Responsibility",
+      "conditional": false,
+      "kind": "mandatory",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "Have all authors read the current CFP and checked for updates since this policy snapshot?",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. Have all authors read the current CFP and checked for updates since this policy snapshot?",
+      "mode": "manual",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Authors\u2019 Responsibility",
+        "checked_on": "2026-10-10"
+      }
+    },
+    {
+      "id": "policy.discretion",
+      "title": "Chair discretion",
+      "question": "",
+      "section": "Program chairs\u2019 discretion",
+      "conditional": false,
+      "kind": "guidance",
+      "stage": "submission",
+      "paper_type": "all",
+      "details": "The PC chairs can apply administrative measures not enumerated in the CFP. Contact pcchairs-27@sp.ieee-security.org about ambiguity; this tool cannot predict decisions or certify acceptance.",
+      "remediation": "Review this requirement and update the submission or HotCRP entry as needed. The PC chairs can apply administrative measures not enumerated in the CFP. Contact pcchairs-27@sp.ieee-security.org about ambiguity; this tool cannot predict decisions or certify acceptance.",
+      "mode": "guidance",
+      "source": {
+        "url": "https://sp2027.ieee-security.org/cfpapers.html",
+        "section": "Program chairs\u2019 discretion",
+        "checked_on": "2026-10-10"
+      }
+    }
+  ]
+}
