@@ -2,7 +2,20 @@
 
 Check a PDF locally against the IEEE Security & Privacy 2027 submission rules. The tool produces an offline HTML report and matching JSON, with measured violations, heuristic warnings, and a complete author checklist. **It does not certify compliance:** some requirements are external facts or require research judgment.
 
-## Run
+## Quick start
+
+Run these commands from the project directory:
+
+```powershell
+python -m pip install -r requirements.txt
+python sp27_check.py "submission_test.pdf" --output report.html --open
+```
+
+The command creates [report.html](report.html) for reading in a browser and [report.json](report.json) for programmatic use. After replacing or updating your PDF, rerun the command and refresh the report in your browser.
+
+The checker runs locally without uploading your paper. It reports everything it can measure and lists the remaining questions for author review.
+
+## Options and examples
 
 Python and PyMuPDF are already available in the current workspace environment. From this directory:
 
@@ -27,6 +40,16 @@ python -m unittest -v
 ```
 
 Defaults are **research**, **cycle 2**, and `report.html`. `--open` opens the finished report; it is optional. `--tex` reads the supplied source and a sibling `IEEEtran.cls` if present; it never compiles anything. `--help` lists options.
+
+### Check the correct IEEE template
+
+SP27 requires the Computer Society conference options:
+
+```latex
+\documentclass[conference,compsoc]{IEEEtran}
+```
+
+Using only `[conference]` selects a different IEEE layout, even when you have not changed any margins or spacing. Supply `--tex main.tex` to check the declaration alongside the PDF. After changing the source, recompile the PDF before rerunning the checker.
 
 The checker leaves the input PDF untouched. HTML and sibling JSON outputs cannot overwrite PDF, TeX, class, answers, or checker inputs, including existing file aliases. Existing reports may be replaced. Each report is staged before replacement; the pair is not a cross-file atomic transaction, so rerun after a disk failure between replacements.
 
